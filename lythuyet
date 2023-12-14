@@ -1,0 +1,8 @@
+script
+alert
+string= number= string
+string -,*,/ number=number
+Toan tu so Hoc: =,-,*,/,%
+Toan tu so sanh: <,>,<=,>=,==
+Toan tu gan: =,+=,-=,*=,/=,%=
+Toan tu logic: &&,&,|,||,!
