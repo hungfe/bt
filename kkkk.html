@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="s1">
+<input type="text" id="s2">
+<button onclick="doanCode1()">Tinh cho Tao</button>
+<h1 id="kq"></h1>
+<h1 id="kq2"></h1>
+<script>
+  function doanCode1() {
+    let c = +document.getElementById('s1').value;
+    let d = +document.getElementById('s2').value;
+    let T = (c+d);
+    let S = (c*d);
+    let C = (T*2);
+    document.getElementById('kq').innerHTML = "Dien Tich la: " + c * d;
+    document.getElementById('kq2').innerHTML = "Chu vi la: " + T * 2;
+  }
+</script>
+</body>
+</html>
+<input type=" text " id="s3">
+<input type=" text " id="s4">
+<button onclick="doancode2()">Cong</button>
+<button onclick="doancode3()">Tru</button>
+<h1 id="kq3"></h1>
+<h1 id="kq4"></h1>
+<script>
+    function doancode2() {
+      let a = + document.getElementById('s3').value;
+      let b = + document.getElementById('s4').value;
+      document.getElementById('kq3'). innerHTML = "Tong la" +(a + b);
+    }
+    function  doancode3() {
+        let a = document.getElementById('s3').value;
+        let b = document.getElementById('s4').value;
+        document.getElementById('kq4'). innerHTML = "Hieu la" +(a - b);
+
+    }
+</script>
